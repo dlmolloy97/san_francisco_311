@@ -1,0 +1,24 @@
+:py:mod:`my_test_function`
+==========================
+
+.. py:module:: my_test_function
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   my_test_function.my_test_function
+
+
+
+.. py:function:: my_test_function() -> str
+
+   This is a test function, which should show up in the docs
+
+

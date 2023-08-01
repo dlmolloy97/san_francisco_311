@@ -1,0 +1,45 @@
+version: 2
+
+models:
+  - name: analytics__frequency__category
+    description: "A model summarising the frequency of each category"
+
+  - name: analytics__frequency__complaint_type
+    description: "A model summarising the frequency of each complaint type"
+
+  - name: analytics__frequency__source
+    description: "A model summarising the frequency of each source"
+
+  - name: analytics__frequency__day_opened
+    description: "A model summarising the frequency of each day opened"
+
+  - name: analytics__frequency__month_opened
+    description: "A model summarising the frequency of each month opened"
+
+  - name: analytics__frequency__year_opened
+    description: "A model summarising the frequency of each year opened"
+
+  - name: analytics__frequency__neighborhood
+    description: "A model summarising the frequency of each neighborhood"
+
+  - name: analytics__resolution_time__category
+    description: "A model averaging the time required to resolve requests in each category"
+
+  - name: analytics__resolution_time__complaint_type
+    description: "A model averaging the time required to resolve requests in each complaint type"
+
+  - name: analytics__resolution_time__source
+    description: "A model averaging the time required to resolve requests in each source"
+
+  - name: analytics__resolution_time__day_opened
+    description: "A model averaging the time required to resolve requests in each day opened"
+
+  - name: analytics__resolution_time__month_opened
+    description: "A model averaging the time required to resolve requests in each month opened"
+
+  - name: analytics__resolution_time__year_opened
+    description: "A model averaging the time required to resolve requests in each year opened"
+
+  - name: analytics__resolution_time__neighborhood
+    description: "A model averaging the time required to resolve requests in each neighborhood"
+

@@ -1,0 +1,12 @@
+
+version: 2
+
+models:
+  - name: main_temporal
+    description: "A model adding machine_learning columns to the main model"
+    columns:
+      - name: unique_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null

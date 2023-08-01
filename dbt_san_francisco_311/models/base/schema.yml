@@ -1,0 +1,12 @@
+
+version: 2
+
+models:
+  - name: main
+    description: "Basic dbt model selecting all data from the source table"
+    columns:
+      - name: unique_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
