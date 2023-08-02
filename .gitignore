@@ -1,0 +1,17 @@
+sf311.egg-info
+data
+.DS_Store
+*/__pycache__/*
+*/__pycache__
+*/.pytest_cache/*
+*/.mypy_cache/*
+*/.tox/*
+*/.venv/*
+*/.vscode/*
+*/.idea/*
+*/.mypy_cache/*
+*/.pytest_cache
+*/.coverage
+*.xml
+*.pyc
+copilot.py
