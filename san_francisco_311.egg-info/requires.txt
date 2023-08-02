@@ -1,9 +1,0 @@
-
-[docs]
-sphinx
-sphinx-autodoc-typehints
-sphinx-rtd-theme
-myst-parser
-myst-nb
-sphinx-copybutton
-sphinx-autoapi

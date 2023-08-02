@@ -1,7 +1,0 @@
-Metadata-Version: 2.1
-Name: san-francisco-311
-Version: 0.1.0
-License: MIT License
-Requires-Python: >=3.6
-Description-Content-Type: text/markdown
-Provides-Extra: docs

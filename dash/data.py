@@ -2,6 +2,8 @@
 from sf311 import bigquery_connector
 import geopandas as gpd
 import plotly.express as px
+import os
+home = os.path.expanduser("~")
 
 def update_graph(variable, grouping):
     # Get data
@@ -35,8 +37,8 @@ def update_choropleth(variable):
     df['neighborhood'] = df['neighborhood'].astype(str)
     # Exclude entries for neighborhood = 8
     df = df[df['neighborhood'] != '8']
-    neighbourhoods_viz = gpd.read_file(
-        '/Users/desmondmolloy/PycharmProjects/san_francisco_311/data/neighborhoods.geojson', driver='GeoJSON')
+    geo_path = os.path.join(home, 'PycharmProjects/san_francisco_311/data/neighborhoods.geojson')
+    neighbourhoods_viz = gpd.read_file(geo_path, driver='GeoJSON')
     neighbourhoods_viz.columns = ['link', 'neighborhood', 'geometry']
     df_joined = neighbourhoods_viz.merge(df, on='neighborhood', how='left')
     df_joined[f'{variable}'] = df_joined[f'{variable}'].astype(float)

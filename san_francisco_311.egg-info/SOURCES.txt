@@ -1,8 +1,0 @@
-README
-pyproject.toml
-san_francisco_311/__init__.py
-san_francisco_311.egg-info/PKG-INFO
-san_francisco_311.egg-info/SOURCES.txt
-san_francisco_311.egg-info/dependency_links.txt
-san_francisco_311.egg-info/requires.txt
-san_francisco_311.egg-info/top_level.txt
