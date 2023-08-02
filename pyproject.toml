@@ -4,7 +4,7 @@
 
 [project]
 
-name = "san_francisco_311"
+name = "sf311"
 
 version = "0.1.0"
 
@@ -26,13 +26,13 @@ pytest-cov = "^2.8"
 
 [tool.poetry.scripts]
 
-san_francisco_311 = "san_francisco_311.__main__:main"
+sf311 = "sf311.__main__:main"
 
 dependencies = ["pyyaml"]
 
 
 [tool.setuptools]
-packages = ["san_francisco_311"]
+packages = ["sf311"]
 
 [project.optional-dependencies]
 docs = [

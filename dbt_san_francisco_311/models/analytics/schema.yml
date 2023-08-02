@@ -43,3 +43,6 @@ models:
   - name: analytics__resolution_time__neighborhood
     description: "A model averaging the time required to resolve requests in each neighborhood"
 
+  - name: analytics__summary__resolution_time__avg
+    description: "A model averaging the time required to resolve requests citywide"
+

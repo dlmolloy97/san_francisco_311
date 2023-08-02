@@ -11,7 +11,7 @@ import sys
 
 sys.path.insert(0, os.path.abspath('.'))
 
-project = 'san_francisco_311'
+project = 'sf311'
 copyright = '2023, Desmond L Molloy'
 author = 'Desmond L Molloy'
 release = '0.1.0'
@@ -27,7 +27,7 @@ exclude_patterns = []
 autodoc_typehints = 'both'
 autodoc_default_options = {'members': True, 'undoc-members': True, 'show-inheritance': True, 'show-module-summary': True, 'special-members': '__init__'}
 autoapi_type = 'python'
-autoapi_dirs = ['../../san_francisco_311']
+autoapi_dirs = ['../../sf311']
 autoapi_template_dir = '_templates/autoapi'
 autoapi_options = ['members', 'undoc-members', 'show-inheritance', 'show-module-summary', 'special-members', 'imported-members']
 

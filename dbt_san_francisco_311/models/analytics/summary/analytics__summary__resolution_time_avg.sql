@@ -7,11 +7,10 @@
 with source_data as (
 
     select
-        opened_year,
-        avg(date_diff(closed_date, created_date, DAY)) as resolution_time
+        avg(date_diff( created_date, closed_date,DAY)) as resolution_time
     from {{ ref('main_temporal')}}
-    group by 1
 )
 
-select *
+select
+    resolution_time
 from source_data

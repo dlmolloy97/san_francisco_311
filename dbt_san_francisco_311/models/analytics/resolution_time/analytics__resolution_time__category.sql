@@ -5,7 +5,7 @@ with source_data as (
 
     select
         category,
-        avg(date_diff( created_date, closed_date,DAY)) as resolution_time
+        avg(date_diff(closed_date, created_date, DAY)) as resolution_time
     from {{ ref('main_temporal')}}
     group by 1
 

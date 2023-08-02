@@ -4,4 +4,4 @@ API
 .. autosummary::
     :toctree: generated
 
-    san_francisco_311
+    sf311
